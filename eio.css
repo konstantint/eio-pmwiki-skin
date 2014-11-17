@@ -1,0 +1,29 @@
+/*
+ * EIO skin for PmWiki.
+ * Copyright 2014, Konstantin Tretyakov.
+ * MIT License.
+ */
+
+.help-block {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+dd {
+    margin-left: 50px;
+}
+
+.footnav {
+    margin-top: 50px;
+}
+
+.lastmod {
+    font-size: smaller;
+    font-style: italic;
+}
+
+#text {
+    font-family: "Courier New";
+    color: black;
+}
+

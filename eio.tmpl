@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <!-- EIO skin for PmWiki. Copyright 2014, Konstantin Tretyakov. MIT License -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="shortcut icon" href="$SkinDirUrl/favicon.ico"/>
+    <title>$WikiTitle | {$Title} $ActionTitle</title>
+    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet"/>
+    <link href="$SkinDirUrl/eio.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <!--HTMLHeader-->
+</head>
+<body>
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <img style="margin-right: 3px; margin-bottom: 0.25em" height="20" src="$SkinDirUrl/favicon32.png">&nbsp;$WikiTitle
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+            </div>
+        </div>
+    </div>
+    <div class="container" id="maincontent">
+        <!--PageText-->
+        <!--PageFooterFmt-->
+        <div id='wikifoot'>
+            <div class='footnav'>
+                <div class='lastmod'>$[Lehekülg viimati muudetud {$LastModified}]</div>
+            </div>
+        </div>
+        <!--HTMLFooter-->
+    </div>
+</body>
+</html>
